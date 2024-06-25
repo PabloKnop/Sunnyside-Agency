@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sunnyside Agency</title>
+  <link rel="shortcut icon" href="imagens/icones/favicon-32x32.png" type="image/x-icon">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <picture>
+        <img src="../imagens/icones/logo.svg" alt="logo">
+      </picture>
+      <ul>
+        <li><a href="http://">About</a></li>
+        <li><a href="http://">Services</a></li>
+        <li><a href="http://">Projects</a></li>
+        <button type="button">Contact</button>
+      </ul>
+    </nav>
+    <picture>
+      <img class="image-header" src="../imagens/desktop/image-header.jpg" alt="">
+    </picture>
+  </header>
+  <script>
+    const open_btn = document.querySelector('.open');
+    const navbar = document.querySelector('.mobile__nav');
+
+    open_btn.addEventListener('click', () => {
+      navbar.classList.toggle('open');
+    });
+  </script>
+</body>
+
+</html>
