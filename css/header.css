@@ -1,11 +1,28 @@
 header{
+background-image: url("../imagens/desktop/image-header.jpg");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+width: 100%;
+height: 100vh;
+position: relative;
 background-color: var(--blue-baby);
 }
 
+header h1{
+  position: absolute;
+  top:20%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  text-wrap: nowrap;
+  color: var(--white);
+}
 
-.image-header{
-  width: 100%;
-  height: 100%;
+#arrow{
+  position: absolute;
+  top:35%;
+  left:50%;
+  transform: translate(-50%, -50%);
 }
 
 
@@ -13,11 +30,93 @@ nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 20px;
+  padding: 30px 40px;
+  background-color: var(--blue-baby);
 }
 
 nav ul{
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 50px;
+}
+
+nav ul a{
+  cursor: pointer;
+  color: var(--white);
+  transition: all 0.4s ease-in-out;
+  display: block;
+}
+
+nav ul a:hover{
+  transform: scale(1.1);
+}
+
+nav ul button{
+  padding: 20px 30px;
+  border-radius: 5rem;
+  border: none;
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.125rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+nav ul button:hover{
+  background: none;
+  color: white;
+  transform: scale(1.1);
+}
+
+#hamburguer{
+  display: none;
+}
+
+
+@media (max-width:760px) {
+  nav ul{
+    display: none;
+  }
+  
+  #hamburguer{
+    display: flex;
+    background-image: url(../imagens/icones/icon-hamburger.svg);
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+  }
+
+  header{
+    max-width: 395px;
+    background-image: url("../imagens/mobile/image-header.jpg");
+    margin: 0 auto;
+    background-size: contain;
+    background-position: bottom;
+    height: 700px;
+    }
+
+    header h1{
+    text-wrap: wrap;
+    text-align: center;
+    top:25%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    }
+     
+    #arrow{
+      top:52.5%;
+      left:50%;
+      transform: translate(-50%, -50%);
+    }
+
+    nav{
+      padding: 15px 20px;
+    }
+    
+    
 }

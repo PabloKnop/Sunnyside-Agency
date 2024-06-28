@@ -12,6 +12,38 @@
   --white: hsl(0, 0%, 100%);
 }
 
+.font1-grande{
+  font: 700 3.375rem/1 "Fraunces", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.font1-media{
+  
+}
+
+.font1-pequena{
+  
+}
+
+
+.font2-grande{
+
+}
+
+.font2-media{
+  font: 500 1.2rem/1 "Barlow", sans-serif;
+}
+
+.font2-pequena{
+  
+}
+
+
+
+
+
+
 * {
   margin: 0;
   padding: 0;

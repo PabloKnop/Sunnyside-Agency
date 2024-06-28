@@ -11,21 +11,47 @@
 
 <body>
   <header>
+    <h1 class="font1-grande">we are creatives</h1>
+    <picture>
+      <img id="arrow" src="../imagens/icones/icon-arrow-down.svg" alt="">
+    </picture>
     <nav>
       <picture>
-        <img src="../imagens/icones/logo.svg" alt="logo">
+        <a href="../html/index.html"><img src="../imagens/icones/logo.svg" alt="logo" width="150px" height="30px"></a>
       </picture>
-      <ul>
-        <li><a href="http://">About</a></li>
-        <li><a href="http://">Services</a></li>
-        <li><a href="http://">Projects</a></li>
+      <ul class="mobile__nav">
+        <li class="font2-media"><a href="http://">About</a></li>
+        <li class="font2-media"><a href="http://">Services</a></li>
+        <li class="font2-media"><a href="http://">Projects</a></li>
         <button type="button">Contact</button>
       </ul>
+      <button class="open" id="hamburguer" type="button"></button>
     </nav>
-    <picture>
-      <img class="image-header" src="../imagens/desktop/image-header.jpg" alt="">
-    </picture>
   </header>
+  <main>
+    <div>
+      <h2>Transform your brand</h2>
+      <p>We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.</p>
+      <a href="">learn more</a>
+    </div>
+    <picture>
+      <img src="../imagens/desktop/image-transform.jpg" alt="">
+    </picture>
+    <div>
+      <h2>Stand out to the right audience</h2>
+      <p>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.</p>
+      <a href="">learn more</a>
+    </div>
+    <picture>
+      <img src="../imagens/desktop/image-stand-out.jpg" alt="">
+    </picture>
+    <div>
+
+    </div>
+    <div>
+
+    </div>
+  </main>
   <script>
     const open_btn = document.querySelector('.open');
     const navbar = document.querySelector('.mobile__nav');
