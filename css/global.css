@@ -19,7 +19,7 @@
 }
 
 .font1-media{
-  
+  font: 700 2.375rem/1 "Fraunces", sans-serif; 
 }
 
 .font1-pequena{
@@ -32,7 +32,8 @@
 }
 
 .font2-media{
-  font: 500 1.2rem/1 "Barlow", sans-serif;
+  font: 500 1rem/1.250 "Barlow", sans-serif;
+  color: var(--grayish-blue);
 }
 
 .font2-pequena{
