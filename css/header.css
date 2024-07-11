@@ -74,7 +74,7 @@ nav ul button:hover{
 }
 
 
-@media (max-width:760px) {
+@media (max-width:900px) {
   nav ul{
     display: none;
   }
@@ -92,7 +92,7 @@ nav ul button:hover{
   }
 
   header{
-    max-width: 395px;
+    max-width: 375px;
     background-image: url("../imagens/mobile/image-header.jpg");
     margin: 0 auto;
     background-size: contain;

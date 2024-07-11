@@ -23,23 +23,24 @@
 }
 
 .font1-pequena{
-  
+font: 700 2rem/1 "Fraunces", sans-serif;
 }
 
+.font1-muito-pequena{
+  font: 700 1.313rem/1 "Fraunces", sans-serif;
+  }
 
 .font2-grande{
 
 }
 
 .font2-media{
-  font: 500 1rem/1.250 "Barlow", sans-serif;
-  color: var(--grayish-blue);
+  font: 500 1.125rem/1.250 "Barlow", sans-serif;
 }
 
 .font2-pequena{
-  
+  font: 500 0.9rem/1.250 "Barlow", sans-serif;
 }
-
 
 
 

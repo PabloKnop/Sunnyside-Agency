@@ -34,10 +34,11 @@
       <p class="font2-media">We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.</p>
       <a class="cor1" href="">learn more</a>
     </div>
-    <picture>
+    <picture class="transform">
+      <source media="(min-width: 900px )" srcset="../imagens/mobile/image-transform" type="image/">
       <img src="../imagens/desktop/image-transform.jpg" alt="">
     </picture>
-    <picture>
+    <picture class="stand">
       <img src="../imagens/desktop/image-stand-out.jpg" alt="">
     </picture>
     <div class="conteudo-principal">
@@ -45,15 +46,74 @@
       <p class="font2-media">Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.</p>
       <a class="cor2" href="">learn more</a>
     </div>
-    <picture class="fotos-baixo">
-      <img src="../imagens/desktop/image-graphic-design.jpg" alt="">
-    </picture>
-    <picture class="fotos-baixo">
-      <img src="../imagens/desktop/image-photography.jpg" alt="">
-      <h3>bakbakcak</h3>
-      <p></p>
-    </picture>
+
+    <div class="cereja">
+      <h3 class="font1-pequena">Graphic design</h3>
+      <p class="font2-media">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+    </div>
+
+    <div class="laranja">
+      <h3 class="font1-pequena">Photography</h3>
+      <p class="font2-media">Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+    </div>
+
   </main>
+  <div class="testimonials">
+    <h1 class="font1-muito-pequena">CLIENT TESTIMONIALS</h1>
+    <div>
+      <img src="../imagens/desktop/image-emily.jpg" alt="">
+      <p class="font2-media">We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+      <h4 class="font1-muito-pequena">Emily R.</h4>
+      <span class="font2-pequena">Marketing Director</span>
+    </div>
+
+    <div>
+      <img src="../imagens/desktop/image-thomas.jpg" alt="">
+      <p class="font2-media">Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
+      <h4 class="font1-muito-pequena">Thomas S.</h4>
+      <span class="font2-pequena">Chief Operating Officer</span>
+    </div>
+
+    <div>
+      <img src="../imagens/desktop/image-jennie.jpg" alt="">
+      <p class="font2-media">Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+      <h4 class="font1-muito-pequena">Jennie F.</h4>
+      <span class="font2-pequena">Business Owner</span>
+    </div>
+
+  </div>
+  <div class="image-box">
+    <picture>
+      <img src="../imagens/desktop/image-gallery-milkbottles.jpg" alt="">
+    </picture>
+    <picture>
+      <img src="../imagens/desktop/image-gallery-orange.jpg" alt="">
+    </picture>
+    <picture>
+      <img src="../imagens/desktop/image-gallery-cone.jpg" alt="">
+    </picture>
+    <picture>
+      <img src="../imagens/desktop/image-gallery-sugarcubes.jpg" alt="">
+    </picture>
+    </picture>
+  </div>
+  <footer>
+    <img class="logo-footer" src="../imagens/icones/logo-footer.svg" alt="">
+    <div class="menu-footer">
+      <ul>
+        <li class="font2-media"><a href="http://">About</a></li>
+        <li class="font2-media"><a href="http://">Services</a></li>
+        <li class="font2-media"><a href="http://">Projects</a></li>
+      </ul>
+    </div>
+    <div class="redes-sociais">
+      <a href="http://"><img src="../imagens/icones-redes/icon-facebook.svg" alt=""></a>
+      <a href="http://"><img src="../imagens/icones-redes/icon-instagram.svg" alt=""></a>
+      <a href="http://"><img src="../imagens/icones-redes/icon-pinterest.svg" alt=""></a>
+      <a href="http://"><img src="../imagens/icones-redes/icon-twitter.svg" alt=""></a>
+    </div>
+    <h5 class="font2-pequena">Challenge by <a href="https://www.frontendmentor.io/?ref=challenge">Frontend Mentor</a>. Coded by <a href="https://github.com/Samadeen">Momoh Abdulsamad</a>.</h5>
+  </footer>
   <script>
     const open_btn = document.querySelector('.open');
     const navbar = document.querySelector('.mobile__nav');

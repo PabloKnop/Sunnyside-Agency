@@ -1,12 +1,12 @@
 main {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 500px;
+  grid-template-rows: 1fr 1fr 525px;
 }
 
 main picture img{
   width: 100%;
-  height: 100%;
+  height: 400px;
   object-fit: cover;
 }
 
@@ -47,9 +47,75 @@ main picture img{
   gap: 50px;
 }
 
+.laranja {
+  background-image: url(../imagens/desktop/image-photography.jpg);
+}
 
-.fotos-baixo img{
-  object-position: top;
+.cereja {
+  background-image: url(../imagens/desktop/image-graphic-design.jpg);
+}
+
+.laranja,
+.cereja{
+background-repeat: no-repeat;
+background-size: cover;
+text-align: center;
+background-position: center top;
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+gap: 20px;
+color: var(--very-dark-desaturated-blue);
+}
+
+.laranja p,
+.cereja p{
+padding: 0px 150px 30px 150px;
+}
+
+
+@media (max-width:900px){
+  main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: none;
+    max-width: 375px;
+    margin: 0 auto;
+  }
+
+  .conteudo-principal{
+    padding: 60px 20px;
+    gap: 50px;
+    text-align: center;
+  }
+
+  .transform{
+    grid-area: 1;
+  }
+
+  .laranja p,
+  .cereja p{
+   padding: 0px 10px 30px 10px;
+  }
+  
+   .conteudo-principal a::after {
+    bottom: -1px;
+    left: 132px;
+    z-index: -1;
+    border-radius: 10px;
+  }
+
+  .laranja {
+    background-image: url(../imagens/mobile/image-photography.jpg);
+    height: 400px; 
+    background-position: top;
+
+  }
+  .cereja {
+    background-image: url(../imagens/mobile/image-graphic-design.jpg);
+    height: 400px;
+    background-position: top; 
+  }
 }
 
 

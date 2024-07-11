@@ -1,0 +1,11 @@
+.image-box{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+ }
+
+.image-box picture img{
+  width: 100%;
+  max-height: 400px;
+  object-position: center;
+  display: block;
+}

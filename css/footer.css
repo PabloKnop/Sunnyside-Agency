@@ -1,0 +1,48 @@
+footer{
+  background-color: var(--dark-moderate-cyan-footer);
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  gap: 30px;
+  padding-top: 50px;
+}
+
+
+.logo-footer{
+  justify-self: center;
+}
+
+
+.menu-footer ul{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+footer ul a{
+  cursor: pointer;
+  color: rgb(226, 221, 221);
+  transition: all 0.6s ease-in-out;
+  display: block;
+  font-size: 1rem;
+}
+
+footer ul a:hover{
+  transform: scale(1.05);
+  color: white;
+}
+
+.redes-sociais{
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+
+.redes-sociais img{
+  width: 30px;
+}
+
+footer h5 a{
+  text-decoration: underline;
+}
+
