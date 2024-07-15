@@ -46,3 +46,19 @@ footer h5 a{
   text-decoration: underline;
 }
 
+@media (max-width : 900px){
+
+  footer{
+    max-width: 375px;
+    margin: 0 auto;
+    padding: 5px;
+  }
+
+  footer h5 a{
+    font-size: 0.8rem;
+  }
+
+  .font2-pequena{
+    font: 500 0.8rem/1.250 "Barlow", sans-serif;
+  }
+}
