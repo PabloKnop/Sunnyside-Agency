@@ -5,6 +5,7 @@ footer{
   text-align: center;
   gap: 30px;
   padding-top: 50px;
+  padding-bottom: 10px;
 }
 
 
@@ -51,7 +52,7 @@ footer h5 a{
   footer{
     max-width: 375px;
     margin: 0 auto;
-    padding: 5px;
+    padding: 30px 5px 10px 5px;
   }
 
   footer h5 a{
